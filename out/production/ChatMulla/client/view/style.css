@@ -84,7 +84,6 @@
 }
 .sign TextField PasswordField{
     -fx-max-width: 200px;
-
 }
 #scroll{
     -fx-spacing: 5px;
