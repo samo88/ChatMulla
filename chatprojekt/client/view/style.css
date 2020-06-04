@@ -1,0 +1,311 @@
+.root{
+    -fx-alignment: center;
+    -fx-background-color:
+            linear-gradient(#8f8f8f 0%, #5c605c 25%, #272827 75%, #1e1e1e 100%),
+            linear-gradient(#020b02, #3a3a3a);
+    -fx-spacing: 15px;
+    -fx-effect: dropshadow( one-pass-box , #5f5f5f, 8 , 0.0 , 1 , 1 );
+    -fx-padding: 10;
+    -fx-font-family: "Helvetica";
+    -fx-text-fill: white;
+    -fx-alignment: center;
+    -fx-text-alignment: right;
+    -fx-vgap: 10px;
+}
+.root Button{
+    -fx-effect: dropshadow( one-pass-box , #464646, 8 , 0.0 , 1 , 1 );
+    -fx-background-color:
+            linear-gradient(#686868 0%, #232723 25%, #373837 75%, #757575 100%),
+            linear-gradient(#020b02, #3a3a3a);
+    -fx-background-insets: 0,1,4,5,6;
+    -fx-background-radius: 9,8,5,4,3;
+    -fx-padding: 15 30 15 30;
+    -fx-font-family: "Helvetica";
+    -fx-text-fill: white;
+    -fx-min-width: 200px;
+}
+.root Button:hover{
+    -fx-background-color:
+            linear-gradient(rgba(225, 225, 225, 0.33) 0%, rgba(251, 255, 251, 0.35) 25%, #b8bcb8 75%, #ffffff 100%),
+            linear-gradient(#a7a7a7, #ffffff);
+    -fx-text-fill: black;
+}
+.root PasswordField{
+    -fx-effect: dropshadow( one-pass-box , #464646, 8 , 0.0 , 1 , 1 );
+    -fx-background-color:
+            linear-gradient(#686868 0%, #232723 25%, #373837 75%, #757575 100%),
+            linear-gradient(#020b02, #3a3a3a);
+    -fx-background-radius: 9,8,5,4,3;
+    -fx-padding: 15 30 15 30;
+    -fx-font-family: "Helvetica";
+    -fx-text-fill: white;
+}
+.root TextField{
+    -fx-effect: dropshadow( one-pass-box , #464646, 8 , 0.0 , 1 , 1 );
+    -fx-background-color:white;
+    -fx-background-radius: 9,8,5,4,3;
+    -fx-padding: 15 30 15 30;
+    -fx-font-family: "Helvetica";
+    -fx-text-fill: black;
+    -fx-max-height: 40px;
+}
+#space{
+    -fx-min-height: 40px;
+}
+#header{
+    -fx-font-size: 30px;
+    -fx-font-family: Helvetica bold;
+    -fx-alignment: center;
+    -fx-pref-width: 320px;
+    -fx-max-width: 320px;
+    -fx-background-color:
+            linear-gradient(#686868 0%, #232723 25%, #373837 75%, #757575 100%);
+}
+#headerLogin{
+    -fx-font-size: 30px;
+    -fx-font-family: Helvetica bold;
+    -fx-alignment: center;
+    -fx-pref-width: 280px;
+    -fx-max-width: 320px;
+    -fx-background-color:
+            linear-gradient(#686868 0%, #232723 25%, #373837 75%, #757575 100%);
+}
+.root TextField:hover{
+    -fx-background-color:grey;
+    -fx-text-fill: white;
+}
+.root RadioButton{
+    -fx-text-fill: white;
+}
+#fields{
+}
+.sign{
+    -fx-padding: 20,20,20,20;
+}
+.sign TextField PasswordField{
+    -fx-max-width: 200px;
+}
+#scroll{
+    -fx-spacing: 5px;
+    -fx-alignment: top-left;
+    -fx-min-width: 580px;
+    -fx-max-width: 580px;
+    -fx-min-height: 580px;
+    -fx-max-height: 580px;
+}
+#container{
+    -fx-padding: 5px;
+    -fx-alignment: top-left;
+    -fx-spacing: 8px;
+    -fx-min-width: 550px;
+}
+#roomBoxx{
+    -fx-spacing: 10px;
+    -fx-border-color: white;
+    -fx-padding: 5px;
+}
+#input{
+    -fx-background-color: transparent;
+}
+#buttonbox{
+    -fx-border-color:  linear-gradient(#8f8f8f 0%, #5c605c 25%, #272827 75%, #1e1e1e 100%),
+    linear-gradient(#020b02, #3a3a3a);
+}
+#inputField{
+    -fx-background-radius: 5px;
+    -fx-min-width: 470px;
+}
+#roomIdentify{
+    -fx-background-insets: 0,1,4,5,6;
+}
+#time{
+    -fx-font-size: 8px;
+    -fx-text-fill: black;
+}
+#roomRow{
+    -fx-spacing: 5px;
+}
+#roomLabel{
+    -fx-min-width: 300px;
+    -fx-effect: dropshadow( one-pass-box , #858585, 8 , 0.0 , 1 , 1 );
+    -fx-min-height: 50px;
+    -fx-max-height: 50px;
+    -fx-background-insets: 0,1,4,5,6;
+    -fx-background-radius: 9,8,5,4,3;
+}
+#roomLabel:hover{
+    -fx-background-color: white;
+    -fx-text-fill: black;
+}
+#roomButton{
+    -fx-min-height: 50px;
+    -fx-max-height: 50px;
+}
+#topBar{
+    -fx-background-color:
+            linear-gradient( #1e1e1e 0%,#272827 25%,#5c605c 75%, #8f8f8f  100%),
+            linear-gradient(#020b02, #3a3a3a);
+    -fx-border-color:    linear-gradient(#020b02, #3a3a3a);
+    -fx-border-width: 5px;
+}
+#chatView{
+    -fx-spacing: 5px;
+    -fx-hgap: 10px;
+    -fx-vgap: 10px;
+}
+.root Label{
+    -fx-padding: 5px;
+    -fx-effect: dropshadow( one-pass-box , black , 20 , 0.05 , 2 , 0 );
+    -fx-text-fill: linear-gradient(#d6d6d6, #ffffff);
+    -fx-font-size: 14px;
+    -fx-font-family: "Helvetica";
+    -fx-min-height: 30px;
+}
+#dialog{
+    -fx-spacing: 5px;
+    -fx-min-width: 400px;
+}
+#dialog Label{
+    -fx-text-alignment: center;
+}
+#memberList{
+    -fx-padding: 20px;
+    -fx-vgap: 5px;
+    -fx-spacing: 5px;
+}
+#refreshBtn{
+    -fx-max-width: 180px;
+    -fx-background-color: linear-gradient(#25ff19, #1bb20f);
+}
+#dialogButton{
+    -fx-alignment: center;
+    -fx-spacing: 5px;
+}
+#infoPane {
+    -fx-alignment: center;
+}
+.me{
+    -fx-background-color: linear-gradient(#25ff19, #1bb20f);
+    -fx-background-radius: 10px;
+    -fx-text-fill: white;
+    -fx-font-size: 15px;
+    -fx-spacing: 10px;
+    -fx-padding: 5,5,5,5;
+    -fx-effect: dropshadow( one-pass-box , #464646, 8 , 0.0 , 1 , 1 );
+}
+.other{
+    -fx-background-color: linear-gradient(#ff100e, #800e0a);
+    -fx-background-radius: 10px;
+    -fx-text-fill: white;
+    -fx-font-size: 15px;
+    -fx-spacing: 10px;
+    -fx-padding: 5,5,5,5;
+    -fx-effect: dropshadow( one-pass-box , #464646, 8 , 0.0 , 1 , 1 );
+}
+.lobby{
+    -fx-background-color:
+            linear-gradient(#8f8f8f 0%, #5c605c 25%, #272827 75%, #1e1e1e 100%),
+            linear-gradient(#020b02, #3a3a3a);
+    -fx-spacing: 15px;
+    -fx-effect: dropshadow( one-pass-box , #5f5f5f, 8 , 0.0 , 1 , 1 );
+    -fx-font-family: "Helvetica";
+    -fx-text-fill: white;
+    -fx-text-alignment: right;
+
+}
+.lobby Label {
+    -fx-min-width: 30px;
+    -fx-max-width: 430px;
+    -fx-pref-width: 420px;
+    -fx-background-color: green;
+    -fx-background-radius: 0px;
+    -fx-max-height: 40px;
+}
+.lobby Label:hover {
+    -fx-background-color: yellow;
+    -fx-text-fill: black;
+
+}
+.lobby Button{
+    -fx-effect: dropshadow( one-pass-box , #464646, 8 , 0.0 , 1 , 1 );
+    -fx-background-color:
+            linear-gradient(#686868 0%, #232723 25%, #373837 75%, #757575 100%),
+            linear-gradient(#020b02, #3a3a3a);
+    -fx-background-insets: 0,1,4,5,6;
+    -fx-background-radius: 9,8,5,4,3;
+    -fx-padding: 15 30 15 30;
+    -fx-font-family: "Helvetica";
+    -fx-text-fill: white;
+    -fx-max-height: 40px;
+    -fx-max-width: 140px;
+    -fx-font-size: 10;
+}
+.lobby Button:hover{
+    -fx-background-color:
+            linear-gradient(rgba(255, 255, 255, 0) 0%, rgba(164, 168, 164, 0.12) 25%, #eaebea 75%, #ffffff 100%),
+            linear-gradient(#a7a7a7, #ffffff);
+    -fx-text-fill: black;
+    -fx-max-height: 40px;
+    -fx-max-width: 140px;
+}
+#roomBox{
+    -fx-padding: 10px;
+    -fx-alignment: center;
+    -fx-text-alignment: center;
+    -fx-min-width: 545px;
+    -fx-spacing: 5px;
+}
+#row{
+    -fx-spacing: 10px;
+}
+#scroll{
+    -fx-min-width: 600px;
+    -fx-border-width: 4px;
+    -fx-border-color: linear-gradient(#8f8f8f 0%, #5c605c 25%, #272827 75%, #1e1e1e 100%);
+}
+#listButton{
+    -fx-effect: dropshadow( one-pass-box , #5f5f5f, 8 , 0.0 , 1 , 1 );
+    -fx-background-radius: 0px;
+    -fx-min-height: 40px;
+    -fx-max-height: 40px;
+    -fx-min-width: 140px;
+    -fx-max-width: 140px;
+    -fx-font-size: 10;
+}
+#topBar{
+    -fx-min-width: 100px;
+    -fx-alignment: center;
+    -fx-padding: 10px;
+    -fx-spacing: 5px;
+}
+#searchField{
+    -fx-background-insets: 0;
+    -fx-max-height: 10px;
+}
+#searchLabel{
+    -fx-max-width: 100px;
+    -fx-background-color: none;
+    -fx-font-size: 10px;
+    -fx-font-family: Helvetica;
+}
+#searchLabel:hover{
+   -fx-text-fill: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
