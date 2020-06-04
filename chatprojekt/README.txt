@@ -34,3 +34,6 @@ Im Chatprogramm ist ermöglicht:
 * Für die Statusüberprüfung muss der Nutzername im Eingabefeld im Lobbybereich (oben rechts) eingegeben und mit ENTER-Taste bestätigt werden.
   Die Anzeige "username ist OFFLINE" kann auch im Falle eines Nicht-existenten Benutzerprofils ausgegeben werden!
 
+
+  Diese README Datei ist als kurze Dokumentation für die Features und Funktionsweisen des Programms gedacht.
+
